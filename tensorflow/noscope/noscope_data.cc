@@ -5,7 +5,8 @@
 
 namespace noscope {
 
-const cv::Size NoscopeData::kYOLOResol_(416, 416);
+// FIXME: should really fix this
+const cv::Size NoscopeData::kYOLOResol_(608, 608);
 const cv::Size NoscopeData::kDiffResol_(100, 100);
 const cv::Size NoscopeData::kDistResol_(50, 50);
 

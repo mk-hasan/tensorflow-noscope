@@ -13,7 +13,7 @@ class NoscopeData {
   static const cv::Size kDistResol_;
 
   constexpr static size_t kNbChannels_ = 3;
-  constexpr static size_t kYOLOFrameSize_ = 416 * 416 * kNbChannels_;
+  constexpr static size_t kYOLOFrameSize_ = 608 * 608 * kNbChannels_;
   constexpr static size_t kDiffFrameSize_ = 100 * 100 * kNbChannels_;
   constexpr static size_t kDistFrameSize_ = 50 * 50 * kNbChannels_;
 
